@@ -1,14 +1,6 @@
 # JavaFramework
-使用docker部署中间件
+# 【[tomcat](https://github.com/704567780/JavaAll/blob/main/JavaFramwork/tomcat.md)】
 
-# zookeeper
-docker pull zookeeper:3.5.8 
-docker run --name zookeeper -p 2181:2181 -d zookeeper
+# 【[spring](https://github.com/704567780/JavaAll/blob/main/JavaFramwork/spring.md)】
 
-# dubbo-admin
-docker run -d \
--p 8080:8080 \
--e dubbo.registry.address=zookeeper://ip:2181 \
--e dubbo.admin.root.password=root \
--e dubbo.admin.guest.password=guest \
-chenchuxin/dubbo-admin 
+# 【[dubbo](https://github.com/704567780/JavaAll/blob/main/JavaFramwork/dubbo.md)】
