@@ -7,5 +7,7 @@ docker run -d -p 8848:8848 \
 -v /home/nacos/init.d/custom.properties \
 -v /home/nacos/logs \
 --restart always --name nacos nacos/nacos-server
+
+
 ```
 
