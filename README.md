@@ -306,6 +306,8 @@ MQ面板配置Topic
 
 1.配置流水线，仓库、勾子、脚本JenkinsFile
 
-2.dockerFile：基础镜像，RUN，COPY,ENV
+2.dockerFile：
+基础镜像，RUN，COPY,ENV
+配环境变量，配镜像源，安装各种包，测试阶段每个阶段打基础镜像
 
 docker-compose：容器卷，端口，初始化脚本
